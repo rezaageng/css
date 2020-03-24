@@ -1,0 +1,22 @@
+@keyframes animasi {
+	0% {
+		width: 0;
+		background-color: lightskyblue;
+	}
+	50% {
+		background-color: lightgreen;
+	}
+	100% {
+		width: 800px;
+		background-color: salmon;
+	}
+}
+.container {
+	width: 800px;
+	margin: auto;
+	border: 3px solid violet;
+}
+.kotak {
+	animation: animasi 3s forwards;
+	height: 100px;
+}

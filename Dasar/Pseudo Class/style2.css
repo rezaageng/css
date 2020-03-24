@@ -1,0 +1,17 @@
+li:first-child a {
+	color: orange;
+}
+li:last-child a {
+	color: green;
+}
+li:nth-child(3) a {
+	color: red;
+}
+/*bisa juga memakai (ood) untuk ganjil, (even) untuk genap,
+bisa juga memakai (xn), (xn+y), (xn-y)*/
+p:first-of-type {
+	color: pink;
+}
+p:last-of-type {
+	color: skyblue;
+}

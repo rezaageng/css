@@ -1,0 +1,37 @@
+.container {
+	width: 800px;
+	border: 1px solid black;
+	margin: auto;
+	padding: 5px;
+}
+.kolom1 {
+	background-color: salmon;
+	width: 200px;
+	height: 300px;
+	float: left;
+}
+.kolom2 {
+	background-color: lightskyblue;
+	width: 400px;
+	height: 300px;
+	float: left;
+}
+.kolom3 {
+	background-color: lightgreen;
+	width: 200px;
+	height: 300px;
+	float: left;
+}
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+
+.cf {
+    *zoom: 1;
+}

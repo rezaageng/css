@@ -1,0 +1,125 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*style*/
+body {
+	font-family: arial, verdana, sans-serif;
+	font-size: 16px;
+	line-height: 28px;
+	background-color: #eaeaea;
+	background-image: url(img/bg.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+}
+.container {
+	width: 800px;
+	margin: auto;
+	background-color: #fff;
+}
+.header {
+	background-color: #333;
+	padding: 20px;
+	color: #fff;
+}
+.header .judul {
+	font-size: 40px;
+	font-weight: bold;
+}
+
+.header ul li {
+	display: inline-block;
+	margin-top: 20px;
+	margin-right: 10px;
+}
+a {
+	text-decoration: none;
+}
+.header ul li a{
+	color: #fff;
+	padding: 5px;
+}
+.header a:hover {
+	background-color: #2C2C2C;
+}
+.banner {
+	height: 350px;
+	background-image: url(img/vs.jpg);
+	background-size: cover;
+	background-position: 0 -20px;
+}
+.artikel {
+	padding: 20px;
+}
+.artikel h2 {
+	font-size: 28px;
+	font-weight: bold;
+}
+.artikel .uploader {
+	font-size: 11px;
+	margin-top: -5px;
+}
+.artikel a {
+	text-decoration: none;
+	color: salmon;
+}
+.artikel .isi {
+	margin-top: 20px;
+	font-size: 15x;
+}
+.footer {
+	background-color: #333;
+	padding: 5px;
+}
+.footer .cr {
+	text-align: center;
+	font-size: 12px;
+	color: white;
+}

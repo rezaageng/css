@@ -1,0 +1,99 @@
+/*.satu {
+	width: 200px;
+	height: 200px;
+	background-color: lightgreen;
+	margin-left: 20px;
+	margin-right: 50px;
+	margin-top: 60px;
+	margin-bottom: 100px;
+}
+.dua {
+	width: 100px;
+	height: 100px;
+	background-color: lightblue;
+}
+.tiga {
+	width: 50px;
+	height: 50px;
+	background-color: violet;
+}*/
+
+/*
+Overlapping margin
+1. Vertikal diambil yg paling besar
+2. Horizontal ditambahkan
+*/
+/*div {
+	display: inline-block;
+}
+.satu {
+	width: 200px;
+	height: 200px;
+	background-color: lightgreen;
+	margin-left: 20px;
+	margin-right: 50px;
+	margin-top: 60px;
+	margin-bottom: 100px;
+}
+.dua {
+	width: 100px;
+	height: 100px;
+	background-color: lightblue;
+}
+.tiga {
+	width: 50px;
+	height: 50px;
+	background-color: violet;
+}*/
+
+/*Negative margin*/
+/*.satu {
+	width: 200px;
+	height: 200px;
+	background-color: lightgreen;
+	margin-left: 20px;
+	margin-right: 50px;
+	margin-top: 60px;
+	margin-bottom: 100px;
+}
+.dua {
+	width: 100px;
+	height: 100px;
+	background-color: lightblue;
+	margin-top: -150px;
+}
+.tiga {
+	width: 50px;
+	height: 50px;
+	background-color: violet;
+}*/
+
+/*Auto*/
+.satu {
+	width: 200px;
+	height: 200px;
+	background-color: lightgreen;
+	margin-left: auto;
+	margin-right: auto;
+}
+.dua {
+	width: 100px;
+	height: 100px;
+	background-color: lightblue;
+	margin-left: auto;
+	margin-right: auto;
+}
+.tiga {
+	width: 50px;
+	height: 50px;
+	background-color: violet;
+	margin-left: auto;
+	margin-right: auto;
+}
+/*
+Short
+1= All
+2= TD, LR
+3= T, LR, D
+4= T, L, D, R
+*/

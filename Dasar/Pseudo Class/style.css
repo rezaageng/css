@@ -1,0 +1,15 @@
+.yo:link {
+	color: orange;
+}
+.yo:hover {
+	font-size: 50px;
+}
+.yo:active {
+	font-style: italic; 	
+}
+.yo:visited {
+	color: red
+}
+a {
+	text-decoration: none;
+}

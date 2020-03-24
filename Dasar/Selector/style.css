@@ -1,0 +1,24 @@
+body {
+	font-family: arial;
+}
+h1, h2 {
+	color: skyblue;
+}
+ul li a {
+	color: magenta;
+}
+ol li a {
+	color: yellow;
+}
+#p1 {
+	color: lightblue;
+}
+.bold {
+	font-weight: bold;
+}
+.p2 {
+	color: cyan;
+}
+p.bold {
+	font-size: 20px;
+}

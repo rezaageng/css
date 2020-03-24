@@ -1,0 +1,15 @@
+.container {
+	width: 800px;
+	font-size: 16px;
+	border: 1px solid black;
+	box-sizing: border-box;
+	margin: auto;
+}
+.img {
+	float: left;
+	width: 500px;
+	margin: 5px;
+}
+p {
+	padding: 5px;
+}

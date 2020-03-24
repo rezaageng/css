@@ -1,0 +1,8 @@
+@font-face {
+	font-family: obelix;
+	src: url(ObelixProB-cyr.ttf);
+}
+h1 {
+	font-family: obelix;
+	text-align: center;
+}

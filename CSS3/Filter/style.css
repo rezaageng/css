@@ -1,0 +1,16 @@
+/*blur()
+brightness()
+contrast()
+drop-shadow()
+grayscale()
+hue-rotate()
+invert()
+opacity()
+saturate()
+sepia()
+url() - for applying SVG filters
+custom() - "coming soon"*/
+img {
+	filter: blur(1px) saturate(2.7);
+	width: 800px;
+}

@@ -1,0 +1,163 @@
+/*Reset*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*style*/
+body {
+	font-family: arial, verdana, sans-serif;
+	font-size: 16px;
+	line-height: 28px;
+	background-color: #eaeaea;
+	background-image: url(img/bg.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+}
+.container {
+	width: 960px;
+	margin: 150px auto;
+	margin-bottom: 0px;
+	background-color: #fff;
+}
+.header {
+	background-color: #333;
+	color: #eaeaea;
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	height: 45px;
+	box-sizing: border-box;
+	z-index: 9999;
+}
+.header .judul {
+	font-size: 40px;
+	font-weight: bold;
+}
+
+.header ul li {
+	display: inline-block;
+	margin-right: 10px;
+	position: relative;
+	left: 200px;
+}
+a {
+	text-decoration: none;
+}
+.header ul li a{
+	color: #eaeaea;
+	padding: 5px;
+	line-height: 45px;
+	position: relative;
+}
+.header a:hover {
+	background-color: #2C2C2C;
+}
+.logo {
+	margin-left: 0px;
+	position: absolute;
+	top: 70px;
+}
+.logo img {
+	width: 250px
+}
+.banner {
+	height: 400px;
+	background-image: url(img/vs.jpg);
+	background-size: cover;
+	background-position: 0 -25px;
+}
+.main {
+	width: 600px;
+	padding: 20px;
+	float: left;
+	box-sizing: border-box;
+}
+.main h2 {
+	font-size: 28px;
+	font-weight: bold;
+}
+.main .uploader {
+	font-size: 11px;
+	margin-top: -5px;
+}
+.main a {
+	text-decoration: none;
+	color: salmon;
+}
+.main .isi {
+	margin-top: 20px;
+	font-size: 15px;
+}
+.sidebar {
+	width: 300px;
+	float: right;
+}
+.sidebar img {
+	width: 75px;
+	float: left;
+	padding-right: 10px;
+}
+.sidebar .profile {
+	font-weight: bold;
+	font-size: 16px;
+}
+.sidebar p {
+	font-size: 13px;
+	line-height: 15px;
+}
+.footer {
+	background-color: #333;
+	padding: 5px;
+}
+.footer .cr {
+	text-align: center;
+	font-size: 12px;
+	color: white;
+}
+.clear {
+	clear: both;
+}

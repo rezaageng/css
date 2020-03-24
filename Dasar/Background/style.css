@@ -1,0 +1,10 @@
+body {
+	background-color: rgb(238, 238, 238);
+	background-image: url(img/MaskotLeft.png), url(img/MaskotRight.png);
+	background-repeat: no-repeat;
+	background-position: center left, center right;
+	background-size: 400px auto, 400px auto;
+	background-attachment: fixed;
+	/*bisa disingkat pakai background: color url() repeat;*/
+
+}

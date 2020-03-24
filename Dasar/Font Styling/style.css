@@ -1,0 +1,14 @@
+h1 {
+	font-family: verdana, arial, sans-serif;
+	font-size: 75px;
+	font-weight: normal;
+	font-variant: small-caps;
+}
+p {
+	font-family: arial, verdana, sans-serif;
+	font-size: 30px;
+	line-height: 50px;
+}
+h2 {
+	font: bold 45px verdana, arial, sans-serif;
+}

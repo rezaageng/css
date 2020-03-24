@@ -1,0 +1,41 @@
+div {
+	display: inline-block;
+	margin: auto;
+	margin-left: 20px;
+}
+.satu {
+	width: 200px;
+	height: 200px;
+	background-color: salmon;
+	border-radius: 10px;
+}
+.dua {
+	width: 200px;
+	height: 200px;
+	background-color: lightgreen;
+	border-radius: 75px 0 75px 0
+}
+.tiga {
+	width: 200px;
+	height: 200px;	
+	background-color: lightskyblue;
+	border-radius: 100px;	
+}
+.empat {
+	width: 200px;	
+	height: 100px;	
+	background-color: gold;
+	border-radius: 100px 100px 0px 0px;
+}
+.lima {
+	width: 200px;
+	height: 100px;
+	background-color: gold;
+	border-radius: 0px 0px 100px 100px;
+}
+.enam {
+	width: 200px;
+	height: 200px;
+	background-color: violet;
+	border-radius: 10px 100px 100px 10px;
+}

@@ -1,0 +1,17 @@
+body {
+	background-image: url(bg.jpg);
+	-webkit-background-size: cover;
+	background-size: cover;
+}
+.satu {
+	height: 300px;
+	width: 399px;
+	background-color: salmon;
+	opacity: 0.5;
+}
+.dua {
+	height: 100px;
+	width: 100px;
+	background-color: lightskyblue;
+	opacity: 0.5;
+}

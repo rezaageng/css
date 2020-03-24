@@ -1,0 +1,11 @@
+div {
+	width: 300px;
+	margin: auto;
+}
+div .tmnl {
+	transition: 1s;
+	width: 300px;
+}
+.tmnl:hover {
+	transform: scale(1.2);
+}
